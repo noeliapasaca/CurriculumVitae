@@ -10,12 +10,46 @@ body {
 * {
     font-family: 'Outfit';
     color: #ff4a4a;
+
 }
 
+main {
+    display: grid;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    grid-template-areas: "C A B D"
+}
 
-section,
-header,
-nav {
+#info {
+    grid-area: A;
+}
+
+#imagen {
+    grid-area: B;
+}
+
+#section2 {
+    grid-area: A;
+}
+
+#section3 {
+    grid-area: B;
+}
+
+#section4 {
+    text-align: center;
+}
+
+#formu {
+    grid-area: A;
+    
+}
+
+#ubi {
+    grid-area: B;
+}
+
+section{
     background-color: #dbedf5;
     margin: 2px 1px 1.5px;
     margin-top: 0.8rem;
@@ -26,19 +60,78 @@ nav {
         rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px,
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    
+    
+}
+
+
+header,
+nav {
+    padding: 0px 0;
+    background-color: #dbedf5;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #f0bdcb;
 }
 
 h1 {
     color: #5ba5ea;
     font-family: 'Pacifico';
-
+    font-size: xx-large;
+   
 }
 
 #linkedin {
     font-family: 'Libre Barcode 128 Text';
-    font-size: larger;
+    font-size: xx-large;
+    text-align: center;
 }
 
 ul {
     list-style-type: none;
+
+}
+
+footer {
+    text-align: center;
+    margin: 2px 1px 1.5px;
+    margin-top: 0.8rem;
+    padding: 2% 1.2%;
+
+}
+
+img,
+iframe {
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #f0bdcb;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+td {
+    background-color: #f2f3f3;
 }
