@@ -1,90 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Curriculum
-        </title>
-        <link rel="stylesheets" href="styles.css">
-        <meta name="viewport" content="width-device-width">
-        
-    </head>
-    <body>
-        <header>
-            <h1>Curriculum vitae</h1>
-        </header>
-        <section>
-            <div class="section">
-                <h2>
-                    Información personal
-                </h2>
-                <ul>
-                    <li>
-                        Noelia Pasaca
-                    </li>
-                    <li>napasaca@espol.edu.ec</li>
-                    <li>(+593) 99 928 8045
-                    </li>
-                    <li><a href="www.linkedin.com/in/noelia-pasaca-paladines-058a4a221">LinkedIn</a></li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <div class="section">
-                <h2>Resumen</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta lorem quis nisi ultricies, ornare viverra nibh fringilla. Praesent sit amet semper massa, eget vehicula quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            </div>
-        </section>
-        <section>
-            <div class="section">
-                <h2>Habilidades</h2>
-                
-                    <ol>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                        <li>Lorem ipsum</li>
-                    </ol>
-                
-            </div>
-        </section>
-        <section>
-            <div class="section">
-                <h2>Educación</h2>
-                <ol>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
-                </ol>
-            </div>
-        </section>
-        <section>
-            <h2>
-                Contactar
-            </h2>
-            <form action="" method="get" class="form-example">
-                <div class="form-example">
-                  <label for="name">Ingrese su nombre: </label>
-                  <input type="text" name="name" id="name" required />
-                </div>
-                <div class="form-example">
-                  <label for="email">Ingrese su email: </label>
-                  <input type="email" name="email" id="email" required />
-                </div>
-                <div class="form-example">
-                  <input type="submit" value="Contactar" />
-                </div>
-              </form>
-        </section>
-        <section>
-            <div class="section">
-                <h2>
-                    Anexos
-                </h2>
-                <img src="https://placehold.co/600x400" alt="MDN" />
-            </div>
-        </section>
-        <footer>
-            
-        </footer>
 
-    </body>
+<head>
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <meta name="viewport" content="width-device-width">
+    <meta name="keywords" content="Curriculum">
+    <meta name="description" content="Resume">
+    <meta name="author" content="Noelia pasaca">
+</head>
+
+<body>
+    <header>
+        <h1>Curriculum vitae</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Información personal</a></li>
+            <li><a href="#section2">Educación</a></li>
+            <li><a href="#section3">Habilidades</a></li>
+            <li><a href="#section4">Proyectos</a></li>
+            <li><a href="#section5">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="section1">
+
+        <h2>
+            Información personal
+        </h2>
+        <ul>
+            <li>Noelia Pasaca</li>
+            <li>napasaca@espol.edu.ec</li>
+            <li>(+593) 99 928 8045</li>
+
+        </ul>
+
+
+    </section>
+    <section id="section2">
+        <h2>Educación</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Empresa</th>
+                    <th>Puesto</th>
+                    <th>Años de experiencia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Acme Corporation</td>
+                    <td>Desarrollador web</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+    <section id="section3">
+
+        <h2>Habilidades</h2>
+
+        <ol>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+        </ol>
+
+
+    </section>
+    <section id="section4">
+
+        <h2>Proyectos</h2>
+        <ol>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+        </ol>
+
+    </section>
+    <section id="section5">
+        <h2>
+            Contactar
+        </h2>
+        <form id="formulario">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required="required"><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required="required"><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" required="required"></textarea><br>
+            <button type="submit" name="enviar">Enviar</button>
+            <button type="reset" name="reiniciar">Cancelar</button>
+        </form>
+        <h2>Ubicación</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0236659040183!2d-79.97045872525769!3d-2.1446206371661605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1717558497393!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <li><a href="www.linkedin.com/in/noelia-pasaca-paladines-058a4a221">LinkedIn</a></li>
+    </footer>
+
+</body>
+
 </html>
