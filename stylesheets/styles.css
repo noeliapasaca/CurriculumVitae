@@ -20,6 +20,7 @@ main {
     grid-template-areas: "C A B D"
 }
 
+
 #info {
     grid-area: A;
 }
@@ -42,14 +43,14 @@ main {
 
 #formu {
     grid-area: A;
-    
+
 }
 
 #ubi {
     grid-area: B;
 }
 
-section{
+section {
     background-color: #dbedf5;
     margin: 2px 1px 1.5px;
     margin-top: 0.8rem;
@@ -61,10 +62,20 @@ section{
         rgba(0, 0, 0, 0.17) 0px 12px 13px,
         rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 5px;
-    
-    
+
+
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 15px 15px;
+  }
+  
 
 header,
 nav {
@@ -81,7 +92,7 @@ h1 {
     color: #5ba5ea;
     font-family: 'Pacifico';
     font-size: xx-large;
-   
+
 }
 
 #linkedin {
