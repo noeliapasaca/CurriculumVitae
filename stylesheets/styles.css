@@ -1,6 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Outfit:wght@100..900&family=Pacifico&display=swap');
+
+body {
+    background-color: #f0bdcb;
+}
 
 * {
-    font-family: 'Roboto';
-    }
+    font-family: 'Outfit';
+    color: #ff4a4a;
+}
 
+
+section,
+header,
+nav {
+    background-color: #dbedf5;
+    margin: 2px 1px 1.5px;
+    margin-top: 0.8rem;
+    padding: 2% 1.2%;
+    box-shadow:
+        rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1 {
+    color: #5ba5ea;
+    font-family: 'Pacifico';
+
+}
+
+#linkedin {
+    font-family: 'Libre Barcode 128 Text';
+    font-size: larger;
+}
+
+ul {
+    list-style-type: none;
+}
